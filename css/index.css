@@ -49,6 +49,26 @@ table {
 
 * {
     box-sizing: border-box;
+    /*border over elements*/
+    /* border: 1px solid grey; */
+}
+
+header nav{
+    /* position: fixed; */
+    width: 100%;
+    /* background-color: grey; */
+    align-items: center;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.links{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 html, body {
@@ -77,6 +97,9 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+.top-content img{
+    padding-bottom: 3%;
 }
 
 .top-content .text-container {
