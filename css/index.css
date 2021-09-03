@@ -140,7 +140,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+/*Box Colors*/
 .box1{
   background-color: teal;  
 }
@@ -182,8 +182,6 @@ background-color: dodgerblue;
 }
 
 
-
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -215,4 +213,40 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* .squares, .square1, .square2, .square3, .square4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}  */
+.squares{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+padding-bottom: 3%;
+width: 40%;
+}
+.squares div{
+    /* display: flex; */
+    /* align-items: flex-end; */
+}
+.squares button{
+    border-radius: 6px;
+    padding: 7px 20px;
+    background-color: white;
+
+}
+.top img{
+    padding-bottom: 3%;
+}
+.topabout{
+    padding-bottom: 3%;
+}
+
+.bottom section{
+    margin-bottom: 3%;
+}
+footer{
+    margin-top: 5%;
 }
